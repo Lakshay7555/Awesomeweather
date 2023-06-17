@@ -2,7 +2,7 @@ import requests
 import os
 from flask import Flask, render_template, request
 
-API_KEY = os.environ.get["APIKEY"]
+API_KEY = os.environ.get("APIKEY")
 BASE_URL= "https://api.openweathermap.org/data/2.5/"
 
 
